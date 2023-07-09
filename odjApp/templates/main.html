@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+        <title>Main</title>
+    {% endblock %}
+    <style>
+        body {
+            background-color: bisque;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    {% block content %}
+        <h1>Main Page</h1>
+        <a href="{% url 'introduce' %}">Introduce</a>&nbsp;
+        <a href="{% url 'study' %}">Study</a>
+        <hr>
+        <h3>AWS EC2 배포 과제</h3>
+    {% endblock %}
+</body>
+</html>

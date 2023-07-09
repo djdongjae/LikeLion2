@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+
+{% block title %}
+    <title>Study</title>
+{% endblock %}
+
+{% block content%}
+    <h1>Study</h1>
+    <a href="{% url 'main' %}">Main</a>&nbsp;
+    <a href="{% url 'introduce' %}">Introduce</a>
+    <hr>
+    <h3>1학기 멋쟁이사자처럼 회고</h3>
+    <p>
+        올해 4월부터 시작한 멋사에서 html, css, javascript, django 등의 기술을 배우고 아이디어톤 등의 활동을 진행하며 부원들과 의미있고 성장하는 시간을 가졌다.
+    </p>
+{% endblock %}

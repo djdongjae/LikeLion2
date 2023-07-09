@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block title %}
+    <title>Introduce</title>
+{% endblock %}
+
+{% block content%}
+    <h1>Introduce</h1>
+    <a href="{% url 'main' %}">Main</a>&nbsp;
+    <a href="{% url 'study' %}">Study</a>
+    <hr>
+    <h3>자기소개</h3>
+    <p>
+        이름 오동재, 1999년 12월 20일 서울시 강남구 출생. 20년 넘게 줄곧 경기도 성남시에서 살아왔으며 현재 성공회대학교 소프트웨어공학전공에 3학년으로 재학중이다.
+    </p>
+    <br>
+    <h3>아이디어톤 소개</h3>
+    <p>
+        서비스 "알려다오"는 스마트폰 사용에 어려움을 겪는 어르신분들을 대상으로 사용법을 알려드리는 튜토리얼 형식의 서비스이다.
+    </p>
+{% endblock %}
